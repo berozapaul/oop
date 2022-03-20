@@ -1,2 +1,2 @@
-# oop
+# OOP
 Object oriented principles
