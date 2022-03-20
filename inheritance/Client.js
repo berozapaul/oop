@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var Dog_1 = require("./Dog");
+var Cat_1 = require("./Cat");
+var dog = new Dog_1.Dog({ age: 2, legs: 4, name: 'Top' }, true);
+var cat = new Cat_1.Cat();
+console.log('DOG:', dog);
+console.log('DOG doing:', dog.woof());
+console.log('CAT:', cat);
+console.log('CAT doing:', cat.meow());
